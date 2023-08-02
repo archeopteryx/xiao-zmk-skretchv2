@@ -36,7 +36,7 @@
         layer_3 {
             bindings = <
            &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE  &kp KP_MULTIPLY  &none  &bt BT_CLR     &bt BT_PRV     &bt BT_NXT      &kp PSCRN      &kp BACKSPACE
-           &none  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_MINUS            &none  &none  &kp K_BACK  &kp K_FORWARD          &none          &none              &none
+    &kp CAPSLOCK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_MINUS            &none  &none  &kp K_BACK  &kp K_FORWARD          &none          &none              &none
   &kp LEFT_SHIFT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_PLUS            &none  &none       &none          &none          &none          &none    &kp RIGHT_SHIFT
 &kp LEFT_CONTROL  &kp KP_NUMBER_0          &kp DOT     &kp KP_ENTER          &none            &none              &none       &kp HOME  &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RIGHT_CONTROL
             >;
