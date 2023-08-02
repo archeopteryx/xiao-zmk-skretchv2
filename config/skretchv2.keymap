@@ -17,10 +17,10 @@
 
         layer_1 {
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET   &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &none
-    &none     &none   &none     &none     &none      &none      &none  &kp UNDER   &kp PLUS  &kp LBKT  &kp RBKT  &none
-    &none     &none   &none     &none     &none   &kp BSLH   &kp PIPE  &kp MINUS  &kp EQUAL  &kp LBRC  &kp RBRC  &none
-    &none     &none   &none     &none    &trans      &none                 &none      &none     &none     &none  &none
+     &kp TILDE      &kp EXCL        &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET        &kp AMPS          &kp STAR       &kp LPAR      &kp RPAR  &kp DELETE
+    &kp DELETE        &kp F1        &kp F2    &kp F3    &kp F4     &kp F5     &kp F6       &kp UNDER          &kp PLUS       &kp LBKT      &kp RBKT    &kp PIPE
+&kp LEFT_SHIFT        &kp F7        &kp F8    &kp F9   &kp F10    &kp F11    &kp F12  &kp LEFT_SHIFT        &kp RSHIFT  &kp RIGHT_ALT  &kp C_VOL_UP    &kp HOME
+     &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT     &none    &trans      &none                      &none  &kp K_PLAY_PAUSE     &kp K_NEXT  &kp C_VOL_DN     &kp END
             >;
         };
 
