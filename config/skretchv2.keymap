@@ -8,37 +8,37 @@
 
         default_layer {
             bindings = <
-         &kp ESC         &kp Q         &kp W      &kp E  &kp R      &kp T  &kp Y  &kp U      &kp I     &kp O     &kp P   &kp BSPC
-         &kp TAB         &kp A         &kp S      &kp D  &kp F      &kp G  &kp H  &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
-       &kp LSHFT         &kp Z         &kp X      &kp C  &kp V      &kp B  &kp N  &kp M  &kp COMMA   &kp DOT    &kp UP    &kp RET
-&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp GRAVE  &mo 1  &kp SPACE         &mo 2   &kp FSLH  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp ESC           &kp Q         &kp W         &kp E      &kp R  &kp T      &kp Y  &kp U  &kp I      &kp O     &kp P     &kp BSPC
+&kp TAB           &kp A         &kp S         &kp D      &kp F  &kp G      &kp H  &kp J  &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z         &kp X         &kp C      &kp V  &kp B      &kp N  &kp M  &kp COMMA  &kp DOT   &kp UP    &kp RET
+&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp GRAVE  &mo 1  &kp SPACE         &mo 2  &kp FSLH   &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
 
         layer_1 {
             bindings = <
-     &kp TILDE      &kp EXCL        &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET        &kp AMPS          &kp STAR       &kp LPAR      &kp RPAR  &kp DELETE
-    &kp DELETE        &kp F1        &kp F2    &kp F3    &kp F4     &kp F5     &kp F6       &kp UNDER          &kp PLUS       &kp LBKT      &kp RBKT    &kp PIPE
-&kp LEFT_SHIFT        &kp F7        &kp F8    &kp F9   &kp F10    &kp F11    &kp F12  &kp LEFT_SHIFT        &kp RSHIFT  &kp RIGHT_ALT  &kp C_VOL_UP    &kp HOME
-     &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT     &none     &mo 1      &none                      &mo 3  &kp K_PLAY_PAUSE     &kp K_NEXT  &kp C_VOL_DN     &kp END
+&kp TILDE       &kp EXCL      &kp AT        &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS        &kp STAR          &kp LPAR       &kp RPAR      &kp DELETE
+&kp DELETE      &kp F1        &kp F2        &kp F3    &kp F4    &kp F5     &kp F6     &kp UNDER       &kp PLUS          &kp LBKT       &kp RBKT      &kp PIPE
+&kp LEFT_SHIFT  &kp F7        &kp F8        &kp F9    &kp F10   &kp F11    &kp F12    &kp LEFT_SHIFT  &kp RSHIFT        &kp RIGHT_ALT  &kp C_VOL_UP  &kp HOME
+&kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT  &none     &mo 1     &none                 &mo 3           &kp K_PLAY_PAUSE  &kp K_NEXT     &kp C_VOL_DN  &kp END
             >;
         };
 
         layer_2 {
             bindings = <
-       &kp GRAVE           &kp N1           &kp N2           &kp N3           &kp N4      &kp N5      &kp N6     &kp N7            &kp N8         &kp N9            &kp N0      &kp BACKSPACE
-         &kp TAB  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &bt BT_CLR  &bt BT_NXT  &kp MINUS         &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-  &kp LEFT_SHIFT  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUM  &bt BT_PRV      &none             &none     &kp K_CALC      &kp C_VOL_UP        &kp PAGE_UP
-&kp LEFT_CONTROL  &kp KP_NUMBER_9  &kp KP_NUMBER_0     &kp LEFT_ALT            &mo 3       &none                 &trans  &kp C_PLAY_PAUSE     &kp C_NEXT      &kp C_VOL_DN      &kp PAGE_DOWN
+&kp GRAVE         &kp N1           &kp N2           &kp N3           &kp N4           &kp N5      &kp N6      &kp N7     &kp N8            &kp N9         &kp N0            &kp BACKSPACE
+&kp TAB           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &bt BT_CLR  &bt BT_NXT  &kp MINUS  &kp EQUAL         &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUM  &bt BT_PRV  &none      &none             &kp K_CALC     &kp C_VOL_UP      &kp PAGE_UP
+&kp LEFT_CONTROL  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp LEFT_ALT     &mo 3            &none                   &trans     &kp C_PLAY_PAUSE  &kp C_NEXT     &kp C_VOL_DN      &kp PAGE_DOWN
             >;
         };
 
         layer_3 {
             bindings = <
-           &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE  &kp KP_MULTIPLY  &none  &bt BT_CLR     &bt BT_PRV     &bt BT_NXT      &kp PSCRN      &kp BACKSPACE
-    &kp CAPSLOCK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_MINUS            &none  &none  &kp K_BACK  &kp K_FORWARD          &none          &none              &none
-  &kp LEFT_SHIFT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_PLUS            &none  &none       &none          &none          &none          &none    &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp KP_NUMBER_0          &kp DOT     &kp KP_ENTER          &mo 1            &none              &mo 3       &kp HOME  &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RIGHT_CONTROL
+&kp KP_NUMLOCK    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE  &kp KP_MULTIPLY  &none  &bt BT_CLR  &bt BT_PRV     &bt BT_NXT     &kp PSCRN      &kp BACKSPACE
+&kp CAPSLOCK      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS   &none            &none  &kp K_BACK  &kp K_FORWARD  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2
+&kp LEFT_SHIFT    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS    &none            &none  &none       &none          &none          &none          &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ENTER     &mo 1          &kp SPACE               &mo 3       &kp HOME       &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RIGHT_CONTROL
             >;
         };
     };
